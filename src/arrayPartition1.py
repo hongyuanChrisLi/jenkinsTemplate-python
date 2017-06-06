@@ -6,7 +6,7 @@ class Solution(object):
         """
         # Test
         list.sort(nums)
-        print(nums)
+        # print(nums)
         my_len = len(nums)
         i = 0
         sum = 0 
