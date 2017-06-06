@@ -5,7 +5,16 @@ class Solution(object):
         :rtype: int
         """
 
-        # your solution here
+        list.sort(nums)
+        print(nums)
+        my_len = len(nums)
+        i = 0
+        sum = 0 
+        
+        
+        while i < my_len:
+            sum += nums[i]
+            i += 2;
 
-        return 0
+        return sum;
 
