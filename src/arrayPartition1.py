@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
+        # Test
         list.sort(nums)
         print(nums)
         my_len = len(nums)
