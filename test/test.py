@@ -10,6 +10,7 @@ class TestArrayPartition1(unittest.TestCase):
         self.assertEqual(self.sln.ArrayPairSum([1,4,2,3]), 4)
 
 
+
 if __name__ == '__main__':
     import xmlrunner
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
